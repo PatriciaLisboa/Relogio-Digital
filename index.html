@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="relogio">
+        <div>
+            <span id="horas">00</span>
+            <span class="tempo">Horas</span>
+        </div>
+       
+
+        <div>
+            <span id="minutos">00</span>
+            <span class="tempo">Minutos</span>
+        </div>
+
+        <div>
+            <span id="segundos">00</span>
+            <span class="tempo">Minutos</span>
+        </div>
+    </div>
+
+    <footer>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/Asleep with the Sun - Unicorn Heads.mp3" type="audio/mp3">
+    </audio>
+    </footer>
+
+    <style>
+        audio::-webkit-media-controls-panel {background: linear-gradient(10deg, #ffe53bd8, #ff2525da);}
+    </style>
+
+    <script src="code.js"></script>
+</body>
+</html>
