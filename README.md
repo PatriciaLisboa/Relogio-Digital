@@ -1,3 +1,3 @@
 # Relogio Digital
 
-## Relógio feito em HTML, CSS, Javascript
+### Relógio digital feito em HTML, CSS e Javascript.
